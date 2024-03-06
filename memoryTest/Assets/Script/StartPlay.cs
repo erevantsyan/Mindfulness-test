@@ -19,10 +19,10 @@ public class StartPlay : MonoBehaviour
 {
 
     [SerializeField] private int sec = 30;
-    [SerializeField] private int sec1 = 120;
+    [SerializeField] private int sec1 = 60;
     [SerializeField] private int delta = 1;
 
-    public int count = 0;
+    public int count = 0, c = 0, c1 = 0;
 
     public List<GameObject> Items = new List<GameObject> () {};
 
@@ -37,6 +37,9 @@ public class StartPlay : MonoBehaviour
     public List<GameObject> ItemsTop = new List<GameObject> () {};
     int[] array1 = {0, 1, 2, 3, 4, 5};
     int[] array2 = {0, 1, 2, 3, 4, 5};
+
+    public List<DragAndDrop> DragItem = new List<DragAndDrop> () {};
+
 
     public GameObject Butt;
     public void StopTime(){
@@ -63,6 +66,7 @@ public class StartPlay : MonoBehaviour
         if (count == 1)
         {
             count = 0;
+            c = 1;
             stopCurrentCoroutine();
             Butt.SetActive (true);
             for (int i = 0; i < 6; i++)
@@ -74,11 +78,22 @@ public class StartPlay : MonoBehaviour
                 array1 = array1.RemoveAt(randomNum1);
                 array2 = array2.RemoveAt(randomNum2);
             }
+            for (int i = 0; i < 12; i++)
+            {
+                DragItem[i].enabled = true;
+            }
             currentCoroutine = StartCoroutine(ITimerMain());
         }
         if (count == 2)
         {
+            count = 0;
+            c = 2;
+            c1 = 2;
             textTimer.enabled = false;
+            for (int i = 0; i < 12; i++)
+            {
+                DragItem[i].enabled = false;
+            }
         }
     }
 
@@ -101,7 +116,7 @@ public class StartPlay : MonoBehaviour
         while (true)
         {
             sec1 -= delta;
-            textTimer.text = sec1 / 60 + ":" + sec1 % 60;
+            textTimer.text = sec1 + "";
             if (sec1 <= 0)
             {
                 count = 2;

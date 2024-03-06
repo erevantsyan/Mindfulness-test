@@ -15,22 +15,25 @@ public class CheckItems : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == gameObject.tag) pr = 1;
-        if (x.count == 2)
+        pr = 1;
+        if (x.c1 == 2)
         {
-            pr = 2;
             if (other.gameObject.tag == gameObject.tag)
             {
-                pr = 3;
                 TrueAns.SetActive(true);
                 FalseAns.SetActive(false);
             }
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        pr = 0;
+    }
     
     void Update()
     {
-        if (x.count == 2)
+        if (x.c1 == 2)
         {
             Ans.SetActive(true);
         }
