@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using System;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public static class Extensions
 {
@@ -42,8 +43,15 @@ public class StartPlay : MonoBehaviour
 
 
     public GameObject Butt;
+    public GameObject ButtExit;
+
     public void StopTime(){
         sec1 = 4;
+    }
+
+    public void ExitGame()
+    {
+        SceneManager.LoadScene(0);
     }
 
     // Start is called before the first frame update
@@ -90,6 +98,8 @@ public class StartPlay : MonoBehaviour
             c = 2;
             c1 = 2;
             textTimer.enabled = false;
+            Butt.SetActive (false);
+            ButtExit.SetActive (true);
             for (int i = 0; i < 12; i++)
             {
                 DragItem[i].enabled = false;
