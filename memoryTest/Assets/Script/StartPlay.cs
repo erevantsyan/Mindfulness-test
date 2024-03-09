@@ -7,23 +7,13 @@ using System;
 using System.Linq;
 using UnityEngine.SceneManagement;
 
-public static class Extensions
-{
-    public static T[] RemoveAt<T>(this T[] source, int index)
-    {
-        return source.Where((_, i) => i != index).ToArray();
-    }
-}
-
 
 public class StartPlay : MonoBehaviour
 {
 
     [SerializeField] private int sec = 30;
-    [SerializeField] private int sec1 = 60;
+    [SerializeField] private int sec1 = 120;
     [SerializeField] private int delta = 1;
-
-    public int count = 0, c = 0, c1 = 0;
 
     public List<GameObject> Items = new List<GameObject> () {};
 
@@ -71,10 +61,10 @@ public class StartPlay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (count == 1)
+        if (StaticCount.count == 1)
         {
-            count = 0;
-            c = 1;
+            StaticCount.count = 0;
+            StaticCount.c = 1;
             stopCurrentCoroutine();
             Butt.SetActive (true);
             for (int i = 0; i < 6; i++)
@@ -92,11 +82,11 @@ public class StartPlay : MonoBehaviour
             }
             currentCoroutine = StartCoroutine(ITimerMain());
         }
-        if (count == 2)
+        if (StaticCount.count == 2)
         {
-            count = 0;
-            c = 2;
-            c1 = 2;
+            StaticCount.count = 0;
+            StaticCount.c = 2;
+            StaticCount.c1 = 2;
             textTimer.enabled = false;
             Butt.SetActive (false);
             ButtExit.SetActive (true);
@@ -115,7 +105,7 @@ public class StartPlay : MonoBehaviour
             textTimer.text = sec + "";
             if (sec <= 0)
             {
-                count = 1;
+                StaticCount.count = 1;
             }
             yield return new WaitForSeconds(1);
         }
@@ -129,7 +119,7 @@ public class StartPlay : MonoBehaviour
             textTimer.text = sec1 + "";
             if (sec1 <= 0)
             {
-                count = 2;
+                StaticCount.count = 2;
             }
             yield return new WaitForSeconds(1);
         }

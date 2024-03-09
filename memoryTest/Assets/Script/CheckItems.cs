@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class CheckItems : MonoBehaviour
 {
-
-    public StartPlay x;
-
     public GameObject TrueAns;
     public GameObject FalseAns;
     public GameObject Ans;
@@ -16,7 +13,7 @@ public class CheckItems : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         pr = 1;
-        if (x.c1 == 2)
+        if (StaticCount.c1 == 2)
         {
             if (other.gameObject.tag == gameObject.tag)
             {
@@ -33,7 +30,7 @@ public class CheckItems : MonoBehaviour
     
     void Update()
     {
-        if (x.c1 == 2)
+        if (StaticCount.c1 == 2)
         {
             Ans.SetActive(true);
         }

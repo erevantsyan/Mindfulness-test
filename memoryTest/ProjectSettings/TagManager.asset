@@ -17,6 +17,12 @@ TagManager:
   - 11
   - 12
   - Spawn
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
   layers:
   - Default
   - TransparentFX

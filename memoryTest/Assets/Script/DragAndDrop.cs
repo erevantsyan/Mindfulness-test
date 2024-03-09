@@ -19,8 +19,6 @@ public class DragAndDrop : MonoBehaviour
 
     public List<CheckItems> checkItem = new List<CheckItems> () {};
 
-    public StartPlay DragIt;
-
     void Start()
     {
         posX = transform.position.x;
@@ -30,12 +28,12 @@ public class DragAndDrop : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (DragIt.c == 1)
+        if (StaticCount.c == 1)
         {
             count = 0;
             pointScreen = Camera.main.WorldToScreenPoint(gameObject.transform.position);
             offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, pointScreen.z));
-            for (int i = 0; i < 12; i++)
+            for (int i = 0; i < BC.Count; i++)
             {
                 BC[i].enabled = true;
             }
@@ -45,7 +43,7 @@ public class DragAndDrop : MonoBehaviour
 
     void OnMouseDrag()
     {
-        if (DragIt.c == 1)
+        if (StaticCount.c == 1)
         {
             Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 9);
             Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint);
@@ -55,11 +53,11 @@ public class DragAndDrop : MonoBehaviour
 
     void OnMouseUp()
     {
-        if (DragIt.c == 1)
+        if (StaticCount.c == 1)
         {
             if (count == 0 || transform.position.y < 0.5 || checkItem[Num].pr == 1) transform.position = new Vector3(posX, posY, posZ);
             else transform.position = new Vector3(Cell[Num].transform.position.x, Cell[Num].transform.position.y, Cell[Num].transform.position.z);
-            for (int i = 0; i < 12; i++)
+            for (int i = 0; i < BC.Count; i++)
             {
                 BC[i].enabled = false;
             }
@@ -128,6 +126,36 @@ public class DragAndDrop : MonoBehaviour
         {
             count = 1;
             Num = 11;
+        }
+        if (other.gameObject.tag == "13")
+        {
+            count = 1;
+            Num = 12;
+        }
+        if (other.gameObject.tag == "14")
+        {
+            count = 1;
+            Num = 13;
+        }
+        if (other.gameObject.tag == "15")
+        {
+            count = 1;
+            Num = 14;
+        }
+        if (other.gameObject.tag == "16")
+        {
+            count = 1;
+            Num = 15;
+        }
+        if (other.gameObject.tag == "17")
+        {
+            count = 1;
+            Num = 16;
+        }
+        if (other.gameObject.tag == "18")
+        {
+            count = 1;
+            Num = 17;
         }
         if (other.gameObject.tag == "Spawn")
         {

@@ -190,7 +190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcf6bb2f3659444ea609ffc8ba63c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: {fileID: 963194229}
   TrueAns: {fileID: 1251440084}
   FalseAns: {fileID: 1461447295}
   Ans: {fileID: 1624382747}
@@ -386,7 +385,6 @@ MonoBehaviour:
   - {fileID: 2032885739}
   - {fileID: 1021836776}
   - {fileID: 375416452}
-  DragIt: {fileID: 963194229}
 --- !u!1 &100056375
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,7 +932,6 @@ MonoBehaviour:
   - {fileID: 2032885739}
   - {fileID: 1021836776}
   - {fileID: 375416452}
-  DragIt: {fileID: 963194229}
 --- !u!1 &113720998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,7 +999,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcf6bb2f3659444ea609ffc8ba63c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: {fileID: 963194229}
   TrueAns: {fileID: 1905319839}
   FalseAns: {fileID: 945190312}
   Ans: {fileID: 1094704031}
@@ -1387,7 +1383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcf6bb2f3659444ea609ffc8ba63c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: {fileID: 963194229}
   TrueAns: {fileID: 2137075897}
   FalseAns: {fileID: 911961679}
   Ans: {fileID: 357549874}
@@ -1764,7 +1759,6 @@ MonoBehaviour:
   - {fileID: 2032885739}
   - {fileID: 1021836776}
   - {fileID: 375416452}
-  DragIt: {fileID: 963194229}
 --- !u!1 &306508381
 GameObject:
   m_ObjectHideFlags: 0
@@ -2193,7 +2187,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcf6bb2f3659444ea609ffc8ba63c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: {fileID: 963194229}
   TrueAns: {fileID: 601004499}
   FalseAns: {fileID: 1634173814}
   Ans: {fileID: 102952534}
@@ -2500,7 +2493,6 @@ MonoBehaviour:
   - {fileID: 2032885739}
   - {fileID: 1021836776}
   - {fileID: 375416452}
-  DragIt: {fileID: 963194229}
 --- !u!4 &412259587 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 192ef2ff262557a468058f31d74649ca, type: 3}
@@ -2802,7 +2794,6 @@ MonoBehaviour:
   - {fileID: 2032885739}
   - {fileID: 1021836776}
   - {fileID: 375416452}
-  DragIt: {fileID: 963194229}
 --- !u!1 &435290577
 GameObject:
   m_ObjectHideFlags: 0
@@ -2973,7 +2964,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcf6bb2f3659444ea609ffc8ba63c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: {fileID: 963194229}
   TrueAns: {fileID: 1973152987}
   FalseAns: {fileID: 1267447309}
   Ans: {fileID: 121766990}
@@ -3118,7 +3108,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcf6bb2f3659444ea609ffc8ba63c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: {fileID: 963194229}
   TrueAns: {fileID: 1451529707}
   FalseAns: {fileID: 994094554}
   Ans: {fileID: 546739066}
@@ -3262,7 +3251,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -200, y: -100}
+  m_AnchoredPosition: {x: -100, y: -100}
   m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &536550611
@@ -3553,7 +3542,6 @@ MonoBehaviour:
   - {fileID: 2032885739}
   - {fileID: 1021836776}
   - {fileID: 375416452}
-  DragIt: {fileID: 963194229}
 --- !u!1 &546739066
 GameObject:
   m_ObjectHideFlags: 0
@@ -3975,7 +3963,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcf6bb2f3659444ea609ffc8ba63c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: {fileID: 963194229}
   TrueAns: {fileID: 1860782004}
   FalseAns: {fileID: 1704564122}
   Ans: {fileID: 435290577}
@@ -4485,13 +4472,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.021682298, y: -0.40067053, z: 0.41605088, w: 0.81602365}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.0218579, y: -0.37362954, z: 0.40901184, w: 0.8322454}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 21.641, y: -43.164, z: 45.383}
+  m_LocalEulerAnglesHint: {x: 20, y: -40, z: 45}
 --- !u!1 &725779708
 GameObject:
   m_ObjectHideFlags: 0
@@ -5320,7 +5307,6 @@ MonoBehaviour:
   - {fileID: 2032885739}
   - {fileID: 1021836776}
   - {fileID: 375416452}
-  DragIt: {fileID: 963194229}
 --- !u!1001 &867531984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5704,11 +5690,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sec: 30
-  sec1: 60
+  sec1: 120
   delta: 1
-  count: 0
-  c: 0
-  c1: 0
   Items:
   - {fileID: 1337592880}
   - {fileID: 1663551287}
@@ -5901,14 +5884,14 @@ RectTransform:
   m_GameObject: {fileID: 971228499}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1899421964}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 150}
+  m_AnchoredPosition: {x: 0, y: 100}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &994094554
@@ -6058,7 +6041,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcf6bb2f3659444ea609ffc8ba63c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: {fileID: 963194229}
   TrueAns: {fileID: 390405817}
   FalseAns: {fileID: 1256478880}
   Ans: {fileID: 552472963}
@@ -6130,7 +6112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcf6bb2f3659444ea609ffc8ba63c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: {fileID: 963194229}
   TrueAns: {fileID: 100056375}
   FalseAns: {fileID: 333142687}
   Ans: {fileID: 799110246}
@@ -6307,7 +6288,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcf6bb2f3659444ea609ffc8ba63c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: {fileID: 963194229}
   TrueAns: {fileID: 1918568067}
   FalseAns: {fileID: 574088396}
   Ans: {fileID: 1757542143}
@@ -7420,7 +7400,6 @@ MonoBehaviour:
   - {fileID: 2032885739}
   - {fileID: 1021836776}
   - {fileID: 375416452}
-  DragIt: {fileID: 963194229}
 --- !u!1 &1383920203
 GameObject:
   m_ObjectHideFlags: 0
@@ -7612,7 +7591,6 @@ MonoBehaviour:
   - {fileID: 2032885739}
   - {fileID: 1021836776}
   - {fileID: 375416452}
-  DragIt: {fileID: 963194229}
 --- !u!1 &1386603184
 GameObject:
   m_ObjectHideFlags: 0
@@ -8210,7 +8188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcf6bb2f3659444ea609ffc8ba63c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: {fileID: 963194229}
   TrueAns: {fileID: 263366233}
   FalseAns: {fileID: 648987219}
   Ans: {fileID: 725779708}
@@ -8695,7 +8672,6 @@ MonoBehaviour:
   - {fileID: 2032885739}
   - {fileID: 1021836776}
   - {fileID: 375416452}
-  DragIt: {fileID: 963194229}
 --- !u!1 &1704564122
 GameObject:
   m_ObjectHideFlags: 0
@@ -9179,7 +9155,7 @@ RectTransform:
   m_GameObject: {fileID: 1804959936}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1899421964}
@@ -9552,11 +9528,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -10102,7 +10078,6 @@ MonoBehaviour:
   - {fileID: 2032885739}
   - {fileID: 1021836776}
   - {fileID: 375416452}
-  DragIt: {fileID: 963194229}
 --- !u!1 &1958151091
 GameObject:
   m_ObjectHideFlags: 0
@@ -10347,7 +10322,6 @@ MonoBehaviour:
   - {fileID: 2032885739}
   - {fileID: 1021836776}
   - {fileID: 375416452}
-  DragIt: {fileID: 963194229}
 --- !u!1 &1973152987
 GameObject:
   m_ObjectHideFlags: 0
@@ -10490,7 +10464,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fcf6bb2f3659444ea609ffc8ba63c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: {fileID: 963194229}
   TrueAns: {fileID: 1499886667}
   FalseAns: {fileID: 825170838}
   Ans: {fileID: 1718159624}
