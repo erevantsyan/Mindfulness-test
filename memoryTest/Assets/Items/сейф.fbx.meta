@@ -3,7 +3,27 @@ guid: 5c6b0f9d86c15864fa4a69553f0e6e48
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lock Numbers
+    second: {fileID: 2100000, guid: 51a35c8e4df0c0244b252d96d557ba03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal 01
+    second: {fileID: 2100000, guid: 35e00a07842a88244ae47b0da254a5a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal 02
+    second: {fileID: 2100000, guid: 91d59d1b881b47c439783db60418f71d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber 01
+    second: {fileID: 2100000, guid: 41f445144a774de4893ddcf989085ca2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

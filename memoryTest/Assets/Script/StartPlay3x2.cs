@@ -39,6 +39,8 @@ public class StartPlay3x2 : MonoBehaviour
 
     public void ExitGame()
     {
+        StaticCount.c = 0;
+        StaticCount.c1 = 0;
         SceneManager.LoadScene(0);
     }
 

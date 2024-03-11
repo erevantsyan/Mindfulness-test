@@ -3,7 +3,72 @@ guid: f6cc8e052a2ea6940ac0b78ac1d35ce8
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: e21e7fb311d436648931182961de9a3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue Paint
+    second: {fileID: 2100000, guid: d4fc47a5367c6ff4a9b3de87b04b648d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bottom Cap
+    second: {fileID: 2100000, guid: 08dc39a2139009549b7235fd4feacd12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Filament
+    second: {fileID: 2100000, guid: 0c1163c970f0ca94c84fb892b508312c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Filament Support
+    second: {fileID: 2100000, guid: a017aa17b6f448142a716f5993cc3878, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: b336e64d21e4a0a4cb410351376f7646, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Iron
+    second: {fileID: 2100000, guid: a3c950784a221554293fb792bb3050b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamp Base
+    second: {fileID: 2100000, guid: cd660e03a03bf0d41901e67c488cd772, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lead-In Wire
+    second: {fileID: 2100000, guid: 84e2969923aee6844b154a8ba3bb7327, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: ecf3d31f906146844bc29485dbcc9b65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shade
+    second: {fileID: 2100000, guid: acba1aeb5af3744479911d95b308f2d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver
+    second: {fileID: 2100000, guid: 7880eceeccdda3142b69f4fb08bd51d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White Plastic
+    second: {fileID: 2100000, guid: 99d794a13d3edc84d96b531e16aea3fe, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
