@@ -3,9 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Runtime.InteropServices;
+
 
 public class ButtMain : MonoBehaviour
 {
+
+    [DllImport("__Internal")]
+    private static extern void ShowAdv();
+
     public void Butt32()
     {
         SceneManager.LoadScene(1);
@@ -29,5 +35,9 @@ public class ButtMain : MonoBehaviour
     public void Butt36()
     {
         SceneManager.LoadScene(5);
+    }
+
+    void Start(){
+        ShowAdv();
     }
 }

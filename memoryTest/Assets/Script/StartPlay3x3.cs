@@ -34,6 +34,7 @@ public class StartPlay3x3 : MonoBehaviour
 
     public GameObject Butt;
     public GameObject ButtExit;
+    public GameObject ButtExit1;
 
     public void StopTime(){
         sec1 = 4;
@@ -95,6 +96,7 @@ public class StartPlay3x3 : MonoBehaviour
             textTimer.enabled = false;
             Butt.SetActive (false);
             ButtExit.SetActive (true);
+            ButtExit1.SetActive (false);
             for (int i = 0; i < 9; i++)
             {
                 DragItem[i].enabled = false;
